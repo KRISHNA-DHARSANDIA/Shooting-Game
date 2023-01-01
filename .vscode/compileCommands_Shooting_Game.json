@@ -1,0 +1,87 @@
+[
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\BTTask_ClearBlackBoardValue.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\BTTask_ClearBlackBoardValue.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\BTTask_Shoot.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\BTTask_Shoot.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\Gun.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\Gun.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\MyPawn.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\MyPawn.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\ShooterAlController.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\ShooterAlController.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\Shooting_Game.Build.cs",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\Shooting_Game.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\Shooting_Game.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\Shooting_GameGameModeBase.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\Shooting_GameGameModeBase.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\ShootingCharacter.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "E:\\Game_project\\Shooting_Game\\Source\\Shooting_Game\\ShootingCharacter.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game\\Shooting_Game.211.rsp",
+		"directory": "E:\\UE_5.0\\Engine\\Source"
+	}
+]

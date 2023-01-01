@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Shooting_GameEditor Editor Win64 Development (Shooting_Game)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Shooting_Game.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\Game_project\\Shooting_Game\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Shooting_Game Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Debug",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Debug",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooting_Game Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Debug",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"DebugGame",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"DebugGame",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooting_Game Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"DebugGame",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Development",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Development",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooting_Game Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Development",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Test",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Test",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooting_Game Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Test",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Shipping",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Shipping",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooting_Game Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_Game Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shooting_Game",
+				"Win64",
+				"Shipping",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_GameEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_GameEditor",
+				"Win64",
+				"Debug",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_GameEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_GameEditor",
+				"Win64",
+				"Debug",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooting_GameEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_GameEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shooting_GameEditor",
+				"Win64",
+				"Debug",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_GameEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_GameEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_GameEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_GameEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooting_GameEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_GameEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shooting_GameEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_GameEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_GameEditor",
+				"Win64",
+				"Development",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_GameEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Shooting_GameEditor",
+				"Win64",
+				"Development",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Shooting_GameEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		},
+		{
+			"label": "Shooting_GameEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Shooting_GameEditor",
+				"Win64",
+				"Development",
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UE_5.0"
+			}
+		}
+	]
+}

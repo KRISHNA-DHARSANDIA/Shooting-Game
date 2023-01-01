@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Shooting_Game (Debug)",
+			"request": "launch",
+			"program": "E:\\Game_project\\Shooting_Game\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "Shooting_Game Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "E:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shooting_Game (DebugGame)",
+			"request": "launch",
+			"program": "E:\\Game_project\\Shooting_Game\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "Shooting_Game Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "E:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shooting_Game (Development)",
+			"request": "launch",
+			"program": "E:\\Game_project\\Shooting_Game\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "Shooting_Game Win64 Development Build",
+			"args": [
+			],
+			"cwd": "E:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shooting_Game (Test)",
+			"request": "launch",
+			"program": "E:\\Game_project\\Shooting_Game\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "Shooting_Game Win64 Test Build",
+			"args": [
+			],
+			"cwd": "E:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shooting_Game (Shipping)",
+			"request": "launch",
+			"program": "E:\\Game_project\\Shooting_Game\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "Shooting_Game Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "E:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shooting_GameEditor (Debug)",
+			"request": "launch",
+			"program": "E:\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "Shooting_GameEditor Win64 Debug Build",
+			"args": [
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject"
+			],
+			"cwd": "E:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shooting_GameEditor (DebugGame)",
+			"request": "launch",
+			"program": "E:\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "Shooting_GameEditor Win64 DebugGame Build",
+			"args": [
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject"
+			],
+			"cwd": "E:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch Shooting_GameEditor (Development)",
+			"request": "launch",
+			"program": "E:\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "Shooting_GameEditor Win64 Development Build",
+			"args": [
+				"E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject"
+			],
+			"cwd": "E:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "E:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "E:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "E:\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=E:\\Game_project\\Shooting_Game\\Shooting_Game.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "E:\\UE_5.0"
+		}
+	]
+}
